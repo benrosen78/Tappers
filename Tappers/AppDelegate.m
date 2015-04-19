@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RFHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +19,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    RFHomeViewController *homeViewController = [[RFHomeViewController alloc] init];
+    self.window.rootViewController = homeViewController;
+    
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

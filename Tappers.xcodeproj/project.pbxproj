@@ -12,6 +12,14 @@
 		B56B85181AD360EE00CF55D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56B85171AD360EE00CF55D5 /* Images.xcassets */; };
 		B56B851B1AD360EE00CF55D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56B85191AD360EE00CF55D5 /* LaunchScreen.xib */; };
 		B56B85271AD360EF00CF55D5 /* TappersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85261AD360EE00CF55D5 /* TappersTests.m */; };
+		B56B853C1AD3610400CF55D5 /* RFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85311AD3610400CF55D5 /* RFHomeViewController.m */; };
+		B56B853D1AD3610400CF55D5 /* RFGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85331AD3610400CF55D5 /* RFGameViewController.m */; };
+		B56B853E1AD3610400CF55D5 /* RFGameMovingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85351AD3610400CF55D5 /* RFGameMovingView.m */; };
+		B56B853F1AD3610400CF55D5 /* RFGameoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85371AD3610400CF55D5 /* RFGameoverViewController.m */; };
+		B56B85401AD3610400CF55D5 /* UIImage+ReactFast.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85391AD3610400CF55D5 /* UIImage+ReactFast.m */; };
+		B56B85411AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B853B1AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.m */; };
+		B56B85471AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85441AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.m */; };
+		B56B85481AD3614000CF55D5 /* UIView+CompactConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B85461AD3614000CF55D5 /* UIView+CompactConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,23 @@
 		B56B85201AD360EE00CF55D5 /* TappersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B85251AD360EE00CF55D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56B85261AD360EE00CF55D5 /* TappersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TappersTests.m; sourceTree = "<group>"; };
+		B56B85301AD3610400CF55D5 /* RFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFHomeViewController.h; sourceTree = "<group>"; };
+		B56B85311AD3610400CF55D5 /* RFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFHomeViewController.m; sourceTree = "<group>"; };
+		B56B85321AD3610400CF55D5 /* RFGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFGameViewController.h; sourceTree = "<group>"; };
+		B56B85331AD3610400CF55D5 /* RFGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFGameViewController.m; sourceTree = "<group>"; };
+		B56B85341AD3610400CF55D5 /* RFGameMovingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFGameMovingView.h; sourceTree = "<group>"; };
+		B56B85351AD3610400CF55D5 /* RFGameMovingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFGameMovingView.m; sourceTree = "<group>"; };
+		B56B85361AD3610400CF55D5 /* RFGameoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFGameoverViewController.h; sourceTree = "<group>"; };
+		B56B85371AD3610400CF55D5 /* RFGameoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFGameoverViewController.m; sourceTree = "<group>"; };
+		B56B85381AD3610400CF55D5 /* UIImage+ReactFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ReactFast.h"; sourceTree = "<group>"; };
+		B56B85391AD3610400CF55D5 /* UIImage+ReactFast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ReactFast.m"; sourceTree = "<group>"; };
+		B56B853A1AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCPushBackAnimation.h"; sourceTree = "<group>"; };
+		B56B853B1AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCPushBackAnimation.m"; sourceTree = "<group>"; };
+		B56B85421AD3614000CF55D5 /* CompactConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompactConstraint.h; sourceTree = "<group>"; };
+		B56B85431AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CompactConstraint.h"; sourceTree = "<group>"; };
+		B56B85441AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+CompactConstraint.m"; sourceTree = "<group>"; };
+		B56B85451AD3614000CF55D5 /* UIView+CompactConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CompactConstraint.h"; sourceTree = "<group>"; };
+		B56B85461AD3614000CF55D5 /* UIView+CompactConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CompactConstraint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +105,23 @@
 				B56B85151AD360EE00CF55D5 /* AppDelegate.m */,
 				B56B85171AD360EE00CF55D5 /* Images.xcassets */,
 				B56B85191AD360EE00CF55D5 /* LaunchScreen.xib */,
+				B56B85301AD3610400CF55D5 /* RFHomeViewController.h */,
+				B56B85311AD3610400CF55D5 /* RFHomeViewController.m */,
+				B56B85321AD3610400CF55D5 /* RFGameViewController.h */,
+				B56B85331AD3610400CF55D5 /* RFGameViewController.m */,
+				B56B85341AD3610400CF55D5 /* RFGameMovingView.h */,
+				B56B85351AD3610400CF55D5 /* RFGameMovingView.m */,
+				B56B85361AD3610400CF55D5 /* RFGameoverViewController.h */,
+				B56B85371AD3610400CF55D5 /* RFGameoverViewController.m */,
+				B56B85381AD3610400CF55D5 /* UIImage+ReactFast.h */,
+				B56B85391AD3610400CF55D5 /* UIImage+ReactFast.m */,
+				B56B853A1AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.h */,
+				B56B853B1AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.m */,
+				B56B85421AD3614000CF55D5 /* CompactConstraint.h */,
+				B56B85431AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.h */,
+				B56B85441AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.m */,
+				B56B85451AD3614000CF55D5 /* UIView+CompactConstraint.h */,
+				B56B85461AD3614000CF55D5 /* UIView+CompactConstraint.m */,
 				B56B85101AD360EE00CF55D5 /* Supporting Files */,
 			);
 			path = Tappers;
@@ -160,6 +202,7 @@
 				TargetAttributes = {
 					B56B850C1AD360EE00CF55D5 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 8V5J4G27BG;
 					};
 					B56B851F1AD360EE00CF55D5 = {
 						CreatedOnToolsVersion = 6.2;
@@ -210,8 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56B853C1AD3610400CF55D5 /* RFHomeViewController.m in Sources */,
+				B56B85401AD3610400CF55D5 /* UIImage+ReactFast.m in Sources */,
 				B56B85161AD360EE00CF55D5 /* AppDelegate.m in Sources */,
+				B56B853F1AD3610400CF55D5 /* RFGameoverViewController.m in Sources */,
+				B56B853D1AD3610400CF55D5 /* RFGameViewController.m in Sources */,
+				B56B85481AD3614000CF55D5 /* UIView+CompactConstraint.m in Sources */,
+				B56B85411AD3610400CF55D5 /* UIViewController+HCPushBackAnimation.m in Sources */,
 				B56B85131AD360EE00CF55D5 /* main.m in Sources */,
+				B56B853E1AD3610400CF55D5 /* RFGameMovingView.m in Sources */,
+				B56B85471AD3614000CF55D5 /* NSLayoutConstraint+CompactConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tappers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -337,9 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tappers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -396,6 +457,7 @@
 				B56B852C1AD360EF00CF55D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56B852D1AD360EF00CF55D5 /* Build configuration list for PBXNativeTarget "TappersTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +466,7 @@
 				B56B852F1AD360EF00CF55D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
